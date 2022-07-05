@@ -1,0 +1,79 @@
+.buttonPrimary{
+    background-color: #129952; /* Green */
+    color: #ffffff;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    overflow: hidden;
+    outline:none;
+    border-width: 0;
+    cursor: pointer;
+}
+.buttonSecondary{
+    background-color: Transparent;
+    color: #129952;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #4CAF50;
+    cursor: pointer;
+}
+.buttonOrange{
+    background-color: #FA883A; /* Green */
+    color: #ffffff;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    overflow: hidden;
+    outline:none;
+    border-width: 0;
+    cursor: pointer;
+}
+.buttonMenu{
+    background-color: #ffffff; /* white */
+    color: #484848;
+    text-align: center;
+    justify-content: center;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: #ffffff;
+    border: #ffffff;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.buttonMenu:hover {
+    background-color: white; 
+    border: 1px solid #4CAF50;  
+
+}
+ 
+.buttonPrimary:hover{
+    background-color: #ffffff; /* white */
+    color: #129952;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: #129952;
+    outline: none;
+    box-shadow: none;
+    border-bottom: #129952; 
+}
+.buttonSecondary:hover{
+    background-color: #129952; /* Green */
+    color: #ffffff;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    border-color: #129952;
+    
+}

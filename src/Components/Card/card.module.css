@@ -1,0 +1,26 @@
+.container{
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.wrapperImage{
+    
+    align-items: center;
+}
+.img{
+    width: 80px;
+    height: 80px;
+}
+.text1{
+    color: rgb(38, 50, 56);
+    font-size: 20px;
+    font-weight: 600;
+}
+.text2{
+    display: block;
+    font-size: 14px;
+}
+.content{
+    padding:20px
+}

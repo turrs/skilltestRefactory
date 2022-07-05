@@ -16,7 +16,7 @@ export default function ContentLandingPage1() {
             </div>
           </div>
           <div className="column2">
-            <p>test2</p>
+            <Card></Card>
           </div>
           <div className="column3">
             <p>test3</p>

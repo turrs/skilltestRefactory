@@ -6,9 +6,7 @@ export default function index({ type, title, buttonText }) {
   if (type === "buttonPrimary") {
     return (
       <Link to="/register">
-        <button className={styles.buttonPrimary} onclick="/login">
-          {title}
-        </button>
+        <button className={styles.buttonPrimary}>{title}</button>
       </Link>
     );
   }

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { ILogo } from "../../Assets";
 import { Button, Menu } from "../../Components";
 
@@ -7,7 +8,9 @@ const index = () => {
   return (
     <div className={styles.header}>
       <div className={styles.brand}>
-        <img className={styles.brandLogo} src={ILogo}></img>
+        <Link to="/">
+          <img className={styles.brandLogo} src={ILogo}></img>
+        </Link>
       </div>
       <div className={styles.content}>
         <div className={styles.menu}>

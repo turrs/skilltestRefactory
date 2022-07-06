@@ -1,0 +1,81 @@
+.container{
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    flex:1;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content{
+    background-image: url("https://www.kotakode.com/static/media/BackgroundFAQ.82a9976b.png");
+    border-radius: 0px 0px 24px 24px;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    flex:1;
+    padding-top: 200px;
+    padding-bottom: 80px;
+}
+
+.text1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(254, 254, 254);
+}
+.text2{
+    display: block;
+    font-size: 14px;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    color: rgb(254, 254, 254);
+}
+.containerAbout{
+    padding-left: 160px;
+    padding-right: 160px;
+    display: flex;
+    flex:1;
+    justify-content: center;
+    align-content: center;
+}
+
+.card{
+    position: absolute;
+    background: #FEFEFE;
+    box-shadow: -5px 10px 15px rgb(0 0 0 / 25%);
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: -2rem;
+}
+
+.text3{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    
+}
+
+.text4{
+    max-width: 950px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    color: rgb(25, 25, 25);
+    max-width:950px;
+
+}

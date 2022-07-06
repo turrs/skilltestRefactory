@@ -26,14 +26,16 @@
     background-color: #FA883A; /* Green */
     color: #ffffff;
     text-align: center;
-    width: 120px;
-    height: 40px;
     font-size: 16px;
+    font-weight: bold;
     border-radius: 5px;
     overflow: hidden;
     outline:none;
     border-width: 0;
     cursor: pointer;
+    width: 100%;
+    height: 40px;
+    
 }
 .buttonMenu{
     background-color: #ffffff; /* white */
@@ -76,4 +78,32 @@
     font-size: 16px;
     border-color: #129952;
     
+}
+
+.buttonDisable{
+    background-color: rgb(117, 117, 117); /* Green */
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    overflow: hidden;
+    outline:none;
+    border-width: 0;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    
+}
+
+.buttonLink{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    color: #848d95;
+    text-align: left;
+    padding: 10px;
 }

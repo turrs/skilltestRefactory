@@ -1,7 +1,13 @@
 import React from "react";
 import styles from "./landingPage.module.css";
-import { ContentLandingPage1, Header } from "../../Parts";
-import { Button, DataOverview } from "../../Components";
+import {
+  ContentLandingPage1,
+  ContentLandingPage2,
+  ContentLandingPage3,
+  ContentLandingPage4,
+  Header,
+} from "../../Parts";
+import { Button, DataOverview, Footer } from "../../Components";
 import { ImgIndo } from "../../Assets";
 
 export default function LandingPage() {
@@ -26,7 +32,11 @@ export default function LandingPage() {
                 ></input>
               </div>
               <div>
-                <Button type="buttonOrange" title="Daftar"></Button>
+                <Button
+                  type="buttonOrange"
+                  buttonText="Daftar"
+                  title="Daftar"
+                ></Button>
               </div>
             </div>
             <div className={styles.wrapperDataOverview}>
@@ -45,6 +55,12 @@ export default function LandingPage() {
       </div>
       <div>
         <ContentLandingPage1></ContentLandingPage1>
+        <ContentLandingPage2></ContentLandingPage2>
+        <ContentLandingPage3></ContentLandingPage3>
+        <ContentLandingPage4></ContentLandingPage4>
+      </div>
+      <div>
+        <Footer></Footer>
       </div>
     </div>
   );

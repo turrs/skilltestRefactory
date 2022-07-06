@@ -14,7 +14,7 @@
 .contentRight{
     display: flex;
     flex:1;
-    padding-top: 50px;
+    background-size: 50%;
     padding-right: 20px;
 }
 

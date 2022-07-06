@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./button.module.css";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 
-export default function index({ type, title }) {
+export default function index({ type, title, buttonText }) {
   if (type === "buttonPrimary") {
     return (
       <Link to="/register">
@@ -22,7 +22,21 @@ export default function index({ type, title }) {
   if (type === "buttonOrange") {
     return (
       <button className={styles.buttonOrange} onclick="/login">
-        {title}
+        {buttonText}
+      </button>
+    );
+  }
+  if (type === "disable") {
+    return (
+      <button className={styles.buttonDisable} onclick="/login">
+        {buttonText}
+      </button>
+    );
+  }
+  if (type === "Link") {
+    return (
+      <button className={styles.buttonLink} onclick="/login">
+        {buttonText}
       </button>
     );
   }

@@ -8,9 +8,10 @@
   flex-direction: row;
   align-items: center;
   border-bottom:3px solid #FA883A;
-  display: flex;
-  
-  
+  display: flex;  
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
 }
 .brand{
   width: 120px;

@@ -1,0 +1,43 @@
+.container{
+    background-image: url("https://www.kotakode.com/static/media/telegramBG.26676839.svg");
+    display: flex;
+    flex:1;
+    background-repeat: no-repeat;
+    padding:100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.wrapperTelegram{
+    padding-top: 60px;
+}
+
+.imgTelegram{
+    width: 200px;
+    height: 200px;
+}
+
+.text2{
+    text-align: center;
+    color: rgb(38, 50, 56);
+    font-size: 18px;
+}
+
+.text1{
+    text-align: center;
+    color: rgb(38, 50, 56);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.wrapperButton{
+    width: 200px;
+}
+
+.buttonSection{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex:1;
+}

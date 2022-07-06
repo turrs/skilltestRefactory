@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex:1;
+    padding: 100px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+.title{
+    color: rgb(38, 50, 56);
+    font-size: 48px;
+    font-weight: bold;
+    max-width: 1020px;
+    text-align: center;
+
+}
+
+.img{
+    width: 160px;
+}
+
+.wrapperImage{
+    padding:10px
+}
+
+.sectionContent{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+}

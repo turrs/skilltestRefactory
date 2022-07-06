@@ -3,10 +3,11 @@
     border-radius: 20px;
     display: flex;
     flex-direction: row;
+    padding: 10px;
+    margin: 20px;
 }
-.wrapperImage{
-    
-    align-items: center;
+.wrapperImage{ 
+    align-self: center;
 }
 .img{
     width: 80px;
@@ -18,9 +19,58 @@
     font-weight: 600;
 }
 .text2{
-    display: block;
+    display: flex;
     font-size: 14px;
+    color: #263238;
 }
 .content{
     padding:20px
 }
+
+.imgSecondary{
+    width: 10rem;
+    height: 10rem;
+}
+.containerSecondary{
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    padding: 20px;
+    margin: 40px;
+    flex-direction: column;
+}
+.textDataSecondary{
+    text-align: center;
+    color: #263238;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 20px;
+    max-width:max-content;
+}
+.textTitleSecondary{
+    text-align: center;
+    color: rgb(38, 50, 56);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.textTitleTertiary{
+    color: #FEFEFE;
+    font-size: 50px;
+    margin-top: 0;
+    text-align: left;
+    margin-bottom: 1.5rem;
+    max-width: 800px;
+    font-weight: bold;
+}
+.textDataTertiary{
+    color: #FEFEFE;
+    font-size: 20px;
+    text-align: left;
+    max-width: 680px;
+}
+
+.wrapperTertiary{
+    margin: 0;
+}
+

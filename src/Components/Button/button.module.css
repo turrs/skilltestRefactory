@@ -77,7 +77,7 @@
     height: 40px;
     font-size: 16px;
     border-color: #129952;
-    
+    border-width: 0;
 }
 
 .buttonDisable{

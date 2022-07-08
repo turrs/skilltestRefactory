@@ -5,3 +5,114 @@
     padding:none;
     
 }
+.nav {
+    list-style: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+    float: left;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  .nav li {
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    z-index: 10;
+  }
+  
+  .nav a {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    background-color: #333;
+    text-decoration: none;
+    z-index: 10;
+  }
+  
+  .nav a:hover {
+    z-index: 10;
+    color: #fff;
+    background-color: #6b0c36;
+    text-decoration: underline;
+  }
+  
+  
+  /*--- DROPDOWN ---*/
+  
+  .nav ul {
+    background-color: #fff;
+    background: rgba(255, 255, 255, 0);
+    list-style: none;
+    position: absolute;
+    left: -9999px;
+    z-index: 10;
+  }
+  
+  .nav ul li {
+    padding-top: 1px;
+    float: none;
+    z-index: 10;
+  }
+  
+  .nav ul a {
+    white-space: nowrap;
+    z-index: 10;
+  }
+  
+  .nav li:hover ul {
+    left: 0;
+    z-index: 10;
+  }
+  
+  .nav li:hover a {
+    background-color: #6b0c36;
+    text-decoration: underline;
+    z-index: 10;
+  }
+  
+  .nav li:hover ul a {
+    text-decoration: none;
+    z-index: 10;
+  }
+  
+  .nav li:hover ul li a:hover {
+    background-color: #333;
+    z-index: 10;
+  }
+  
+  .nav ul {
+    background-color: #fff;
+    background: rgba(255, 255, 255, 0);
+    list-style: none;
+    position: absolute;
+    z-index: 10;
+    left: -9999px;
+  }
+  
+  .nav ul li {
+    padding-top: 1px;
+    float: none;
+    z-index: 10;
+  }
+  
+  .nav ul a {
+    white-space: nowrap;
+    z-index: 10;
+  }
+  
+  .nav li:hover ul {
+    left: 0;
+    z-index: 10;
+  }
+  
+  .nav li:hover a {
+    background-color: #6b0c36;
+    text-decoration: underline;
+    z-index: 10;
+  }
+  
+  .nav li:hover ul li a:hover {
+    background-color: #333;
+    z-index: 10;
+  }

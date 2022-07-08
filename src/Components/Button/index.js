@@ -10,6 +10,13 @@ export default function index({ type, title, buttonText }) {
       </Link>
     );
   }
+  if (type === "buttonDropdown") {
+    return (
+      <button className={styles.buttonDropdown} onclick="/produk">
+        {title}
+      </button>
+    );
+  }
   if (type === "buttonMenu") {
     return (
       <button className={styles.buttonMenu} onclick="/login">

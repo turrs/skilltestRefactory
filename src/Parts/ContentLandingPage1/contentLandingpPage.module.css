@@ -2,7 +2,7 @@
     padding : 100px;
     background-color: "#ffffff";
     display: flex;
-
+    flex-wrap: wrap;
 }
 .card{
     background-color: #71CA9B;
@@ -10,12 +10,14 @@
     display: flex;
     flex: 1;
     padding: 10px;
+    flex-wrap: wrap;
 }
 .content{
     display: flex;
     flex: 1;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .column1{
     display: flex;

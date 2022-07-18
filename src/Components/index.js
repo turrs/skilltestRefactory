@@ -6,6 +6,9 @@ import CardPlatform from "./CardPlatform";
 import CardIcon from "./CardIcon";
 import Covered from "./Covered";
 import Footer from "./Footer";
+import Profile from "./Profile";
+import Question from "./Question";
+import EventsCard from "./EventsCard";
 export {
   Button,
   Menu,
@@ -15,4 +18,7 @@ export {
   CardIcon,
   Covered,
   Footer,
+  Profile,
+  Question,
+  EventsCard,
 };

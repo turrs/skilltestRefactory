@@ -1,4 +1,5 @@
 import React from "react";
+import { Profile } from "../../Components";
 import styles from "./teamKotakode.module.css";
 export default function TeamKotakode() {
   return (
@@ -6,6 +7,11 @@ export default function TeamKotakode() {
       <div>
         <div>
           <p className={styles.text}>Tim kotakode</p>
+        </div>
+        <div className={styles.wrapperProfile}>
+          <Profile></Profile>
+          <Profile></Profile>
+          <Profile></Profile>
         </div>
       </div>
       <div className={styles.maskot}>

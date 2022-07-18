@@ -15,8 +15,10 @@
     justify-content: center;
     display: flex;
     flex:1;
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 80px;
+    text-align: center;
+    align-items: center;
 }
 
 .text1{
@@ -29,6 +31,7 @@
     font-weight: bold;
     text-align: center;
     color: rgb(254, 254, 254);
+    
 }
 .text2{
     display: block;
@@ -48,7 +51,23 @@
     justify-content: center;
     align-content: center;
 }
+.line{
+    width: 7rem;
+    height: 4px;
+    display: inline-flex;
+    background: #EA6C1E;
+    border-radius: 9999px;
+    display: flex;
+   
+}
 
+.wrapperLine{
+    display: flex;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    text-align: center;
+}
 .card{
     position: absolute;
     background: #FEFEFE;
@@ -57,8 +76,8 @@
     border-radius: 10px;
     text-align: center;
     margin-top: -2rem;
+    min-width: 180px;
 }
-
 .text3{
     display: block;
     font-size: 1.5em;
@@ -75,7 +94,6 @@
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 20px;
-    color: rgb(25, 25, 25);
+    color: #757575;
     max-width:950px;
-
 }

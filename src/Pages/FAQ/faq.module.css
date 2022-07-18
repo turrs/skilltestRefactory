@@ -1,0 +1,22 @@
+.container{
+    padding-left: 500px;
+    padding-right: 500px; 
+   display: flex;
+   flex: 1;
+   flex-wrap: wrap;
+   flex-direction: column;
+}
+.wrapperFaq{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-left: 500px;
+    padding-right: 500px; 
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+}

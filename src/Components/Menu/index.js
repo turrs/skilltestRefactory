@@ -8,20 +8,7 @@ export default function Menu() {
       <Link to="/about">
         <Button title="Tentang" type="buttonMenu"></Button>
       </Link>
-      <ul className={style.nav}>
-        <li>
-          <a href="#">About</a>
-          <ul>
-            <li>
-              <a href="#">The product</a>
-            </li>
 
-            <li>
-              <a href="#">Meet the team</a>
-            </li>
-          </ul>
-        </li>
-      </ul>
       <Link to="/faq">
         <Button title="FAQ" type="buttonMenu"></Button>
       </Link>

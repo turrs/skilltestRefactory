@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 500px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    border-bottom: 1px solid black;
+    flex-wrap: wrap;
+}
+
+.wrapperIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.minus{
+    width: 25px;
+    height: 25px;
+}
+.content{
+    background-color: #757575;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.textQuestion{
+    color: rgb(25, 25, 25);
+    font-weight: 700;
+    width: 100%;
+}

@@ -50,7 +50,7 @@ export default function LandingPage() {
           </div>
         </div>
         <div className={styles.contentRight}>
-          <img src={ImgIndo}></img>
+          <img src={ImgIndo} className={styles.img}></img>
         </div>
       </div>
       <div>

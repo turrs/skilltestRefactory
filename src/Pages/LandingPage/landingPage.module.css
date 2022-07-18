@@ -5,7 +5,7 @@
     padding-top: 80px;   
     padding-left:100px ;
     padding-right:100px ;
-    flex-wrap: wrap;
+   
 }
 .contentLeft{
     flex:1;
@@ -18,16 +18,21 @@
     background-size: 50%;
     padding-right: 20px;
     flex-wrap: wrap;
+    
 }
-
+.img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
 .textBig{
-    font-size: 50px;
+    font-size: 2rem;
     font-weight: 500;
     max-width: 600px;
 }
 .textNormal{
    
-    font-size: 18px;
+    font-size: 2rm;
     max-width: 380px;
 }
 .content{

@@ -13,6 +13,7 @@
   top: 0;
   background-color: #ffffff;
   z-index: 5;
+  flex-wrap: wrap;
 }
 .brand{
   width: 120px;
@@ -22,13 +23,15 @@
   flex:1;
   flex-direction: row; display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .headerRight{
  display: flex;
  flex-direction: row;
 }
 .menu{
- 
+  display: flex;
+  flex-wrap: wrap;
   text-align: right;
 }
 

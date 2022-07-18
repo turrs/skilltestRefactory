@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    flex: 1;
+    border-radius: 10px;
+    flex-direction: column;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+}
+
+.wrapperImage{
+    width: 210px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.img{
+    width: max-content;
+    height: 130px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+}
+.text{
+    max-width: 210px;
+}
+.date{
+    padding: 5px;
+ 
+}
+.attribute{
+    display: flex;
+    flex-direction: row;
+}
+
+.attributeText{
+    margin: 0px;
+    padding: 0px;
+}
+.title{
+    font-size: 18px;
+    margin-top: 0.2rem;
+    text-align: left;
+    line-height: 24px;
+    margin-bottom: 0.5rem;
+}
+.dateText{
+    color: rgb(117, 117, 117);
+}
+.attributeText{
+    color: rgb(117, 117, 117);
+    margin: 0;
+    display: flex;
+    font-size: 12px;
+    text-align: left;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    padding: 2px;
+}
